@@ -4,14 +4,15 @@ import {
 } from "react-router-dom";
 import {WelcomePage} from "../../pages/welcome-page/WelcomePage";
 import {Page} from "../../components/page/Page";
+import {ROUTES} from "./constants";
 
 const router = createHashRouter([
   {
-    path: '/',
+    path: ROUTES.welcomePage,
     element: <WelcomePage/>,
   },
   {
-    path: '/first',
+    path: ROUTES.first,
     element: <Page/>
   }
 ])
