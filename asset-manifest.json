@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/fufa-quest/static/js/main.e6dd9caa.js",
+    "main.js": "/fufa-quest/static/js/main.a5def76e.js",
     "index.html": "/fufa-quest/index.html",
-    "main.e6dd9caa.js.map": "/fufa-quest/static/js/main.e6dd9caa.js.map"
+    "main.a5def76e.js.map": "/fufa-quest/static/js/main.a5def76e.js.map"
   },
   "entrypoints": [
-    "static/js/main.e6dd9caa.js"
+    "static/js/main.a5def76e.js"
   ]
 }
