@@ -1,12 +1,12 @@
 import React, {FC} from "react";
-import {redirect, useLocation, useNavigate, useNavigation} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
+import {ROUTES} from "../../app/router/constants";
 
 export const WelcomePage: FC = () => {
   const navigate = useNavigate()
 
   const onClick = () => {
-    console.log('Ку')
-    navigate('first')
+    navigate(ROUTES.first)
   }
 
   return (
