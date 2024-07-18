@@ -1,0 +1,96 @@
+import {PageProps} from "../../components/page/Page";
+import {PAGE_ROUTE, ROUTES} from "../router/constants";
+
+export const PAGES: Record<keyof typeof PAGE_ROUTE, PageProps> = {
+  page1: {
+    name: 'ПЕРВЫЙ ШАГ',
+    question: 'Ищи ответ в моей тумбочке и введи его в поле',
+    answer: 'tumba',
+    nextPage: ROUTES.page2,
+    background: '#ffa8af',
+  },
+  page2: {
+    name: 'ПЕРВЫЕ ВЕЧЕРА',
+    question: 'Ответ ждёт тебя на предмете мебели в комнате, которая меньше всего изменилась',
+    answer: 'нямням',
+    nextPage: ROUTES.page3,
+    background: '#ffc0cb',
+  },
+  page3: {
+    name: 'ПРОБЛЕМЫ НАДО РЕШАТЬ',
+    question: 'Его НЕ БЫЛО в квартире, а ведь он РАЗДАЁТ нам волны 21-го века',
+    answer: 'internet',
+    nextPage: ROUTES.page4,
+    background: '#fdbcb4',
+  },
+  page4: {
+    name: 'СЪЕЗЖАЕМСЯ',
+    question: 'Ищи ответ там, где живое превращается в мёртвое, но прекрасное',
+    answer: 'art',
+    nextPage: ROUTES.page5,
+    background: '#ffcbbb',
+  },
+  page5: {
+    name: 'БЫТ',
+    question: 'Он должен был нам помогать, но что-то пошло не так',
+    answer: 'сосу пыль дорого',
+    nextPage: ROUTES.page6,
+    background: '#ffc8a8',
+  },
+  page6: {
+    name: 'ДУХ ПРИКЛЮЧЕНИЙ',
+    question: 'ИХ у нас ДВА, и один из НИХ хранит самое дорогое для путника и солдата',
+    answer: 'скоро уберу',
+    nextPage: ROUTES.page7,
+    background: '#fdd5b1',
+  },
+  page7: {
+    name: 'САНКЦИОНКА',
+    question: 'Был куплен за ТЕНГЕ, а потом за РУБЛИ',
+    answer: 'джин',
+    nextPage: ROUTES.page8,
+    background: '#fdf5e6',
+  },
+  page8: {
+    name: 'ПЕРВЫЙ ОТПУСК',
+    question: 'Наш первый отпуск не был бы возможен без ЭТОГО',
+    answer: 'зима',
+    nextPage: ROUTES.page9,
+    background: '#eebef1',
+  },
+  page9: {
+    name: 'БАБАКА',
+    question: 'Мы любили, когда БАБАКА лежала на НЁМ. Ответ под НИМ',
+    answer: 'гав тяв',
+    nextPage: ROUTES.page10,
+    background: '#dcd0ff',
+  },
+  page10: {
+    name: 'СВЕЖИЙ ВОЗДУХ',
+    question: 'В ней было кайфово спать и плыть к костру',
+    answer: 'палатОЧКА',
+    nextPage: ROUTES.page11,
+    background: '#afdafc',
+  },
+  page11: {
+    name: 'РОГАТЫЙ',
+    question: 'Ответ хранит тот, кто живёт на алтае',
+    answer: 'греф',
+    nextPage: ROUTES.page12,
+    background: '#abcdef',
+  },
+  page12: {
+    name: 'ПИФПАФ',
+    question: 'Ответ рядом с твоим попаданием в десяточку',
+    answer: 'тратата',
+    nextPage: ROUTES.page13,
+    background: '#add8e6',
+  },
+  page13: {
+    name: 'ТЫ ПРЕКРАСНА',
+    question: 'И это можно увидеть прямо сейчас подойдя к НЕМУ, а ответ будет ПОД ним',
+    answer: 'лублу',
+    nextPage: ROUTES.endPage,
+    background: '#ace5ee',
+  },
+}
